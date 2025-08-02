@@ -36,6 +36,8 @@ npm install
 PORT=3000
 RECAPTCHA_SECRET=tu_clave_secreta
 
+---
+
 ## 🧪 Uso
  
  1. Inicia el servidor
@@ -46,6 +48,10 @@ RECAPTCHA_SECRET=tu_clave_secreta
   "token": "token_recaptcha_del_cliente"
 }
 
+
+---
+
+
 ## 📁 Estructura del proyecto
 backend-telon/
 ├── .env.example
@@ -54,12 +60,20 @@ backend-telon/
 ├── server.js
 └── README.md
 
+
+---
+
 ## 🧠 Notas
 Este backend está pensado para integrarse con un frontend que use reCAPTCHA v2 Invisible
 
 
+---
+
 ## 📜 Licencia
 Este proyecto está bajo licencia MIT. Puedes usarlo, modificarlo y compartirlo libremente.
 
+
+---
+s
 ## ✨ Autora
 Desarrollado por Isabel 
