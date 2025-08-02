@@ -28,31 +28,41 @@ Este proyecto es el backend para la validación de formularios mediante **Google
 ```bash
 git clone https://github.com/tu-usuario/backend-telon.git
 cd backend-telon
-
+```markdown
 2. Instala las dependencias
+```bash
 npm install
 
+```markdown
 3. Crea tu archivo .env
+
+```bash
 PORT=3000
 RECAPTCHA_SECRET=tu_clave_secreta
+```markdown
 
 ---
 
 ## 🧪 Uso
  
  1. Inicia el servidor
+```bash
  npm start
+```markdown
 
  2. Envía una solicitud POST al endpoint /verify con el token del cliente
+```bash
  {
   "token": "token_recaptcha_del_cliente"
 }
 
 
+```markdown
 ---
 
 
 ## 📁 Estructura del proyecto
+```bash
 backend-telon/
 ├── .env.example
 ├── .gitignore
